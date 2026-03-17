@@ -59,7 +59,7 @@ main {
   padding: 1rem;
   border-radius: 1rem;
 
-  p {
+  p, li {
     font-size: 18pt;
     text-align: justify;
     text-wrap: pretty;
