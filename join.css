@@ -1,0 +1,21 @@
+body {
+  background-color: light-dark(#BBBC, #222A);
+}
+
+body::before {
+  background-image: url('honeycomb.svg');
+  background-size: 20%;
+  backdrop-filter: opacity(75%);
+}
+
+header h1 {
+  line-height: 0.75;
+  background-color: color-mix(in oklab, #ff5500, transparent 40%);
+  -webkit-text-stroke-width: 0.005em;
+}
+
+p {
+  background-color: light-dark(#377e1099, #0d88f3AA );
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+}
